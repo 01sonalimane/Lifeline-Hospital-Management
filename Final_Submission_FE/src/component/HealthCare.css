@@ -1,0 +1,54 @@
+.healthcare-section {
+    padding: 60px 100px;
+    text-align: center;
+    background: linear-gradient(to right, #eaf8ff, #d9f1ff);
+  }
+  
+  .healthcare-title {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #343a40;
+  }
+  
+  .healthcare-subtitle {
+    font-size: 1.1rem;
+    color: #6c757d;
+    margin-bottom: 50px;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+  }
+  
+  .service-card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .service-icon {
+    font-size: 3rem;
+    color: #007bff;
+    margin-bottom: 15px;
+  }
+  
+  .service-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .service-description {
+    font-size: 1rem;
+    color: #6c757d;
+  }
+  

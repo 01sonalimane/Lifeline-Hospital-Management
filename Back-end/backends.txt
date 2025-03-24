@@ -1,0 +1,38 @@
+*********Model:*********
+
+{
+"_id":
+"name":
+"role": default : user, admin(dr), insurer
+"gender" :
+"bed_no":
+"Consulting_dr":
+"Diagnosis":
+
+"Customized_Bill":{
+	total: default : 0rs	
+}
+
+"address":
+"phone":
+"insuance type": Default : none, cash, cashless
+"insurer": 
+}
+
+
+
+
+*********Routes:*********
+
+1. home page
+2. registration
+3. login
+4. add_bill
+
+
+******************
+to do after the completition of this....
+1. authentication and authorization
+2. add a bed availability
+3. book an appointment
+******************

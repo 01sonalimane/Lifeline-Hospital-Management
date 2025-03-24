@@ -1,0 +1,33 @@
+.container {
+  background: linear-gradient(to right, #eaf8ff, #d9f1ff);
+  /* padding: 20px; */
+  border-radius: 10px;
+ /* margin-top: 50px; */
+}
+
+.carousel {
+  background: linear-gradient(to right, #eaf8ff, #d9f1ff);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-caption {
+  background: rgba(255, 255, 255, 0.8); /*for text */
+  padding: 15px;
+  border-radius: 5px;
+}
+
+body, html {
+margin: 0;
+padding: 0;
+background: linear-gradient(to right, #eaf8ff, #d9f1ff);
+}
+
+h1 {
+  margin-top: 0 !important;
+  padding-top: 10px !important; /* Adjust if needed */
+}
+.text-center mb-4{
+  border: 5px solid red;
+}

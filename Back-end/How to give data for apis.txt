@@ -1,0 +1,96 @@
+A. Patient Routes::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+#To reg a patient
+post:: http://localhost:5000/reg_patient
+{
+   "_id": "PAT001",
+    "name": "Rajesh Kumar",
+    "email": "rajesh.kumar01@example.com",
+    "password": "123",
+    "phone_no": "9876543210",
+    "dob": "1985-06-15",
+    "gender": "Male",
+    "blood_grp": "B+",
+    "address": "123 MG Road, Delhi, India",
+    "consulting_dr": "Dr. Anil Mehta",
+    "insurance_id": "INS12345",
+    "policy_id": "POL45678",
+    "admission_date": "2024-02-01"
+}
+
+# To login the patient
+port:: http://localhost:5000/login_patient
+{
+    "_id":"PAT001",
+    "password":"123"
+}
+
+
+B. Doctor Routes::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+# To reg the doctor
+
+port:: http://localhost:5000/reg_doctor
+{
+    "_id": "DOC001",
+    "name": "Dr. Anil Mehta",
+    "specialization": "Cardiology",
+    "department": "Heart Care",
+    "password": "123",
+    "phone_no": "9876512340",
+    "address": "VS_SS, Hyd, India",
+    "role": "doctor"
+}
+
+# To login
+
+port:: http://localhost:5000/login_doctor
+
+{
+    "_id":"DOC001",
+    "password":"123"
+}
+
+
+
+C. Insurer Routes::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+# To reg the insurer
+port:: http://localhost:5000/reg_insurer
+{
+"_id": "INS002",
+    "name": "Anita Sharma",
+    "password": "123",
+    "company": "HDFC Ergo",
+    "role": "insurer"
+}
+
+# To login
+port:: http://localhost:5000/login_insurer
+{
+    "_id":"INS001",
+    "password": "123"
+}
+
+
+
+D. Add and get bill details::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+#To add the bill
+port:: http://localhost:5000/add_bill
+{
+"_id": "PAT001",
+    "appointment_date": "2024-02-05",
+    "billing_entries": [
+      { "sr_no": 1, "particular": "Consultation Fee", "amount": 500 },
+      { "sr_no": 2, "particular": "X-Ray", "amount": 1200 }
+    ]
+}
+
+#To get the bill
+port:: http://localhost:5000/get_bill/PAT001
+
+
+
+
+
+

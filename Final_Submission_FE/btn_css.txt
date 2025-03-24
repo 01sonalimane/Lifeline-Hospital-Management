@@ -1,0 +1,17 @@
+style={{
+  height: "5vh",
+  width: "25vw",
+  padding: "10px 0",  // Ensures vertical centering
+  background: "blue",
+  color: "white",
+  border: "none",
+  cursor: "pointer",
+  textAlign: "center",
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center",  // Centers text both vertically & horizontally
+  fontSize: "1rem",
+  fontWeight: "bold",
+  borderRadius: "5px",  // Optional: Adds rounded corners
+  transition: "background 0.3s ease",  // Optional: Smooth hover effect
+}}

@@ -1,0 +1,207 @@
+.register-page {
+  min-height: 100vh;
+  background: linear-gradient(to right, #eaf8ff, #d9f1ff);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align content towards the top */
+  padding-top: 20px; /* Adjust top padding as needed */
+}
+
+
+.con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #eaf8ff, #d9f1ff);
+  padding: 20px;
+  
+}
+
+.form {
+  background: #9fceda;
+  padding: 30px;
+  max-width: 600px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.msg {
+  color: red;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.input-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.input-group input {
+  width: 48%;
+}
+
+input[type='text'],
+input[type='password'] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* Specific Login Page Container */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  background: linear-gradient(to right, #f0f9ff, #d0eaff);
+  padding: 30px;
+  flex-direction: column;
+  margin-bottom: 40px; /* Adds gap between footer and cards */
+}
+
+.login-container-1 {
+  height: auto;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #f0f9ff, #d0eaff);
+  padding: 30px;
+  margin-bottom: 40px;
+}
+
+/* Dropdown for Login Type Selection */
+.login-select {
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 300px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Card Grid Layout for Login and Registration */
+.card-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+  
+}
+
+.card-grid-1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px; /* Space between cards */
+  max-width: 80%;
+  width: 100%;
+  }
+
+.card {
+  background: linear-gradient(to right, #eaf8ff, #d9f1ff);
+  padding: 30px;
+  border-radius: 8px;
+  text-align: left;
+  cursor: pointer;
+  transition: transform 0.2s;
+  width: 300px;
+  max-width: 100%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.card p {
+  margin-top: 10px;
+  color: #555;
+}
+
+.dummy-content {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.dummy-content ul {
+  list-style: disc;
+  margin: 10px auto;
+  max-width: 600px;
+  text-align: left;
+  padding-left: 20px;
+  color: #444;
+}
+
+.dummy-content h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Register Container Styles */
+.registration-container {
+  padding: 30px;
+  /* background: #ffffff; */
+  background: linear-gradient(to right, #eaf8ff, #d9f1ff);
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.registration-container h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.registration-container p {
+  color: #555;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.registration-container ul {
+  list-style-type: disc;
+  margin-top: 15px;
+  text-align: left;
+  color: #333;
+}

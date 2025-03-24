@@ -1,0 +1,76 @@
+/* .footer {
+  background-color: #1c2331;
+  color: white;
+  padding: 30px 0;
+}
+
+.social-section {
+  background-color: #6351ce;
+}
+
+.hr-style {
+  width: 60px;
+  background-color: #7c4dff;
+  height: 2px;
+}
+
+.contributors-section {
+  background: rgba(0, 0, 0, 0);
+}
+
+.text-white a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.text-white a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+} */
+
+
+.footer {
+  background-color: #1c2331;
+  color: white;
+  padding: 1.5rem 0; /* Reduced vertical padding */
+  font-family: sans-serif;
+  /* Added to control height */
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+  min-height: 100px; /* Set a minimum height */
+}
+
+.social-section {
+  background-color: #6351ce;
+  padding: 0.5rem 0; /* Reduced padding */
+  text-align: center;
+}
+
+/* ... (rest of the CSS remains the same) */
+
+.container-fluid {
+  padding: 1rem; /* Reduced padding */
+  flex: 1; /* Allow content to expand to fill available space */
+}
+
+.contributors-section {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 0.5rem 0; /* Reduced padding */
+  text-align: center;
+  font-size: 0.8rem; /* Slightly smaller font */
+  color: #ddd;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .col-md-3, .col-md-2, .col-md-4 {
+    margin-bottom: 1rem;
+  }
+  .social-section {
+    flex-direction: column; /* Stack social icons */
+    align-items: center;
+  }
+  .social-section a {
+    margin: 0.5rem 0; /* Adjust margin for stacked icons */
+  }
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "_id": "PAT001",
+    "appointment_date": "2024-02-05",
+    "billing_entries": [
+      { "sr_no": 1, "particular": "Consultation Fee", "amount": 500 },
+      { "sr_no": 2, "particular": "X-Ray", "amount": 1200 }
+    ]
+  },
+  {
+    "_id": "PAT002",
+    "appointment_date": "2024-02-06",
+    "billing_entries": [
+      { "sr_no": 1, "particular": "Blood Test", "amount": 800 },
+      { "sr_no": 2, "particular": "MRI Scan", "amount": 3000 }
+    ]
+  },
+  {
+    "_id": "PAT003",
+    "appointment_date": "2024-02-07",
+    "billing_entries": [
+      { "sr_no": 1, "particular": "General Check-up", "amount": 600 },
+      { "sr_no": 2, "particular": "ECG", "amount": 1500 }
+    ]
+  },
+  {
+    "_id": "PAT004",
+    "appointment_date": "2024-02-08",
+    "billing_entries": [
+      { "sr_no": 1, "particular": "Ultrasound", "amount": 2000 },
+      { "sr_no": 2, "particular": "Physiotherapy", "amount": 900 }
+    ]
+  },
+  {
+    "_id": "PAT005",
+    "appointment_date": "2024-02-09",
+    "billing_entries": [
+      { "sr_no": 1, "particular": "Dental Cleaning", "amount": 700 },
+      { "sr_no": 2, "particular": "Root Canal", "amount": 4000 }
+    ]
+  }
+]
